@@ -2,7 +2,16 @@
   height: 45px;
   width: auto;
 }
-
+.btn{
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--main-red);
+  border: none;
+  padding: 0px 17px;
+  line-height: 35px;
+  border-radius: .2em;
+  cursor: pointer;
+}
 .inline-form input{
   line-height: 50px;
   min-width: 420px;
@@ -14,15 +23,6 @@
   /* line-height: 46px; */
   height: 100%;
 }
-.btn{
-  font-size: 1rem;
-  color: #fff;
-  background-color: var(--main-red);
-  border: none;
-  padding: 0px 17px;
-  line-height: 35px;
-  border-radius: .2em;
-}
 .header{
   height: 100vh;
   background:
@@ -32,7 +32,6 @@
       rgba(0,0,0,0.8)
     ), 
     url('../assets//img/header_bg.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
   color: #FFF;
 }

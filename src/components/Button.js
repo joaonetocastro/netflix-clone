@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
-
-// import { Container } from './styles';
+import {NavLink} from 'react-router-dom';
 
 export default class Button extends Component {
   constructor(props){
     super();
     this.content = props.children;
+    this.to = props.to || '/';
   }
   render() {
     return (
-      <button className="btn">
-        { this.content }
-      </button>
+      <NavLink to={this.to}>
+        <button className="btn">
+          { this.content }
+        </button>
+      </NavLink>
     );
   }
 }
