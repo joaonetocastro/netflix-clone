@@ -1,5 +1,6 @@
 :root{
   --main-red: #e50914;
+  --main-dark: #333;
 }
 @font-face{
   font-family: 'Netflix Regular';
